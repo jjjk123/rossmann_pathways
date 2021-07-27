@@ -3,8 +3,6 @@ from functools import partial
 
 cachedir = "./cache/"
 
-FORCE = False
-
 class cache(object):
 	def __get__(self, obj, objtype):
 	
